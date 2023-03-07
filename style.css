@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+.h-first, .h-second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+}
+
+.h-first{
+  height: 40px;
+  font-size: 12px;
+}
+
+.h-logos {
+  width: 89px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.h-first span {
+  padding-left: 11px;
+  color: rgb(115, 115, 115);
+}
+
+.h-second {
+  top: 40px;
+  height: 76px;
+  font-size: 16px;
+}
+
+.h-second span {
+  padding: 24px 16px;
+}
+
+.h-second input {
+  padding: 8px;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50px;
+  width: 100%;
+}
+
+.main-container, .f-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  max-width: 1440px;
+  padding: 0px 40px;
+}
+
+.main img, .main video {
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+}
+
+.center button {
+  padding: 16px 24px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+.main p {
+  font-size: 32px;
+  padding: 35px 0;
+}
+
+.img-grid, .img-grid2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.img-grid2 {
+  padding-bottom: 200px;
+}
+
+footer {
+  background-color: rgb(17, 17, 17);
+  color: white;
+}
